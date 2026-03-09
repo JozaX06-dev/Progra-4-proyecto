@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\MenuPartePublica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MenuPartePublica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\BuscarPuestos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BuscarPuestos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-09T14:05:16.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuPartePublica.html",
+              "DocumentMoniker": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\MenuPartePublica.html",
+              "RelativeDocumentMoniker": "MenuPartePublica.html",
+              "ToolTip": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\MenuPartePublica.html",
+              "RelativeToolTip": "MenuPartePublica.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-09T14:04:36.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuscarPuestos.html",
+              "DocumentMoniker": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\BuscarPuestos.html",
+              "RelativeDocumentMoniker": "BuscarPuestos.html",
+              "ToolTip": "C:\\Users\\lafsz\\Desktop\\2026\\Programacion IV\\Progra-4-proyecto\\BuscarPuestos.html",
+              "RelativeToolTip": "BuscarPuestos.html",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAGYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-09T14:04:22.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
