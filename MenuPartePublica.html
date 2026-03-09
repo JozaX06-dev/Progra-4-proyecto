@@ -16,10 +16,10 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color:rgb(10, 202, 154)">BolsaEmpleo</a>
+                <a class="nav-link active" aria-current="page" href="#" style="color:rgb(10, 202, 154)">Bolsa de Empleo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="BuscarPuestos.html" style="color:rgb(10, 202, 154)">Buscar puestos</a>
+                <a class="nav-link" href="BuscarPuestos.html" style="color:rgb(10, 202, 154)">Buscar Puestos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:rgb(10, 202, 154)">Registro Empresa</a>
@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#" style="color:rgb(10, 202, 154)">Registro Oferente</a>
             </li>
             <li class="nav-item ms-auto">
-                <a class="nav-link" href="#" style="color:rgb(10, 202, 154)">Login</a>
+                <a class="nav-link" href="Login.html" style="color:rgb(10, 202, 154)">Login</a>
             </li>
             </ul>
         </nav>
@@ -46,6 +46,7 @@
                                 <p class="card-text text-white-50">Descripción corta</p>
                                 <p class="card-text text-white">Salario</p>
                                 <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal1" >Ver Detalles</button>
+                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="popover" data-bs-title="Nombre de la empresa" data-bs-content="Especificaciones de la empresa aqui">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -56,6 +57,7 @@
                                 <p class="card-text text-white-50">Descripción corta</p>
                                 <p class="card-text text-white">Salario</p>
                                 <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal2">Ver Detalles</button>
+                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="popover" data-bs-title="Nombre de la empresa" data-bs-content="Especificaciones de la empresa aqui">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -66,6 +68,7 @@
                                 <p class="card-text text-white-50">Descripción corta</p>
                                 <p class="card-text text-white">Salario</p>
                                 <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal3">Ver Detalles</button>
+                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="popover" data-bs-title="Nombre de la empresa" data-bs-content="Especificaciones de la empresa aqui">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -76,6 +79,7 @@
                                 <p class="card-text text-white-50">Descripción corta</p>
                                 <p class="card-text text-white">Salario</p>
                                 <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal4">Ver Detalles</button>
+                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="popover" data-bs-title="Nombre de la empresa" data-bs-content="Especificaciones de la empresa aqui">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -85,7 +89,7 @@
                                 <h5 class="card-title text-white">Nombre de empresa</h5>
                                 <p class="card-text text-white-50">Descripción corta</p>
                                 <p class="card-text text-white">Salario</p>
-                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modal5">Ver Detalles</button>
+                                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="popover" data-bs-title="Nombre de la empresa" data-bs-content="Especificaciones de la empresa aqui">Ver Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -100,8 +104,16 @@
                     <span class="text-white fw-bold">Bolsa de Empleo</span>
                 </div>
                 <div class="ms-auto text-end">
-                    <div class="text-white-50" style="font-size: 0.85rem;">Contacto: jozabad.mejia.esquivel@est.una.ac.cr</div>
-                    <div class="text-white-50" style="font-size: 0.85rem;">Contacto: hernas.sanchez.chavez@est.una.ac.cr</div>
+                    <div class="text-white-50" style="font-size: 0.85rem;">
+                        <a href="mailto:jozabad.mejia.esquivel@est.una.ac.cr">
+                            jozabad.mejia.esquivel@est.una.ac.cr
+                        </a>
+                    </div>
+                    <div class="text-white-50" style="font-size: 0.85rem;">
+                        <a href="mailto:jozabad.mejia.esquivel@est.una.ac.cr">
+                            hernan.sanchez.chavez@est.una.ac.cr
+                        </a>
+                    </div>
                     <div class="text-white-50" style="font-size: 0.85rem;">Créditos: Jozabad Mejía y Hernán Sánchez</div>
                 </div>
             </div>
@@ -173,5 +185,7 @@
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]') 
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
     </body>
 </html>
