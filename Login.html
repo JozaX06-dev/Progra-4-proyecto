@@ -33,25 +33,33 @@
             </ul>
         </nav>
 
-        <main class="flex-grow-1">
-            <div class="md-4">
-                    <div class="col">
-                        <div class="card h-100" style="background-color: rgb(35,46,46); border-color: #4a5f5f;">
-                            <div class="card-body">
-                                <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label" style="color:rgb(10,202,154)">Usuario</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label" style="color:rgb(10,202,154)">Contraseña</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
+        <main class="flex-grow-1 d-flex align-items-center justify-content-center">
+            <div style="width: 350px;">
+                <div class="card" style="background-color: rgb(35,46,46); border-color: #4a5f5f;">
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <i class="fa-solid fa-user-check" style="color:rgb(10,202,154)"></i>
+                            <h4 class="mt-2" style="color:rgb(10,202,154)">Login</h4>
                         </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label" style="color:rgb(10,202,154)">Usuario</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1">
+                            </div>
+                            <!--El class mb-3 lo que hace es agregar un margen inferior, trabaja con números del 0 al 5-->
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label" style="color:rgb(10,202,154)">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="text-center">
+                                <!--Tenemos que cambiar este botón a submit luego-->
+                                <button type="button" class="btn btn-primary px-4">Ingresar</button>
+                            </div>
+                            <!--Con el class centramos lo que va a ser el botón y le reducimos 4 pixeles para que se ajuste al contenido-->
+                        </form>
                     </div>
+                </div>
+            </div>
         </main>
 
         <footer class="py-2" style="background-color: rgb(36, 47, 47);">
