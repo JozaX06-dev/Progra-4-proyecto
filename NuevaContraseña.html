@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- Este head se usa en todas las páginas-->
-        <title>Login</title>
+        <title>Registro de contraseña</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
@@ -22,13 +22,13 @@
                 <a class="nav-link" href="BuscarPuestos.html" style="color:rgb(10, 202, 154)">Buscar Puestos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="RegistroEmpresa.html" style="color:rgb(10, 202, 154)">Registro Empresa</a>
+                <a class="nav-link active" aria-current="page" href="RegistroEmpresa.html" style="color:rgb(10, 202, 154)">Registro Empresa</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="RegistroOferente.html" style="color:rgb(10, 202, 154)">Registro Oferente</a>
             </li>
             <li class="nav-item ms-auto">
-                <a class="nav-link active" aria-current="page" href="Login.html" style="color:rgb(10, 202, 154)">Login</a>
+                <a class="nav-link" href="Login.html" style="color:rgb(10, 202, 154)">Login</a>
             </li>
             </ul>
         </nav>
@@ -39,21 +39,20 @@
                     <div class="card-body">
                         <div class="text-center mb-4">
                             <i class="fa-solid fa-user-check" style="color:rgb(10,202,154)"></i>
-                            <h4 class="mt-2" style="color:rgb(10,202,154)">Login</h4>
+                            <h4 class="mt-2" style="color:rgb(10,202,154)">Registro Empresa</h4>
                         </div>
                         <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label" style="color:rgb(10,202,154)">Usuario</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1">
-                            </div>
-                            <!--El class mb-3 lo que hace es agregar un margen inferior, trabaja con números del 0 al 5-->
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label" style="color:rgb(10,202,154)">Contraseña</label>
+                           <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label" style="color:rgb(10,202,154)">Ingrese la Contraseña</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword2" class="form-label" style="color:rgb(10,202,154)">Confirme la Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2">
                             </div>
                             <div class="text-center">
                                 <!--Tenemos que cambiar este botón a submit luego-->
-                                <button type="button" class="btn btn-primary px-4">Ingresar</button>
+                                <button type="button" class="btn btn-primary px-4">Crear Usuario</button>
                             </div>
                             <!--Con el class centramos lo que va a ser el botón y le reducimos 4 pixeles para que se ajuste al contenido-->
                         </form>
